@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "d": "npm run lint && vite --open",
-    "b": "vite build --base=/goit-react-hw-03-phonebook/",
+    "b": "vite build --base=/goit-react-hw-04-phonebook/",
     "lint": "eslint src",
     "lint:fix": "eslint --fix src"
   },
