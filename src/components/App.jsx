@@ -31,11 +31,8 @@ export function App() {
 
   useEffect(() => {
     localStorage.setItem('contacts', JSON.stringify({ contacts }));
-  }, [contacts]);
-
-  useEffect(() => {
     localStorage.setItem('filter', JSON.stringify({ filter }));
-  }, [filter]);
+  }, [contacts, filter]);
 
   const addNewContact = newContact => {
     const nameExists = contacts.some(
